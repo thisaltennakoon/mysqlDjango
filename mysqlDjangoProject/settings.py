@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'mysqlDjangoProject.wsgi.application'
     }
 }"""
 
-DATABASES = {
+"""DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mysqlDjangoDatabase',
@@ -89,6 +89,17 @@ DATABASES = {
         'PASSWORD': '',
         'HOST':'127.0.0.1',
         'PORT':'3308'
+    }
+}"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mysqlDjangoDatabase',
+        'USER': 'thisal',
+        'PASSWORD': 'thisal.1226',
+        'HOST':'localhost',
+        'PORT':'3306'
     }
 }
 # Password validation
